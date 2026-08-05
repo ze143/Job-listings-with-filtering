@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Frontend Mentor | Job Listings</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 0.6875rem;
+            text-align: center;
+        }
+        
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="filter">
+        <div class="filteration" id="filter">
+
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="card card-1">
+            <div class="left">
+                <div class="card__logo">
+                    <img src="./images/photosnap.svg" alt="Photosnap Logo">
+                </div>
+                <div class="card__info">
+                    <div class="card__company">
+                        <span class="card__company-name">Photosnap</span>
+                        <span class="card__new">New!</span>
+                        <span class="card__featured">Featured</span>
+                    </div>
+                    <h2 class="card__position">Senior Frontend Developer</h2>
+                    <ul class="card__details">
+                        <li>1d ago</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Full Time</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>USA only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card__tags">
+                    <button class="tag">Frontend</button>
+                    <button class="tag">Senior</button>
+                    <button class="tag">HTML</button>
+                    <button class="tag">CSS</button>
+                    <button class="tag">JavaScript</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card card-2">
+            <div class="left">
+                <div class="card__logo">
+                    <img src="./images/manage.svg" alt="Manage Logo">
+                </div>
+                <div class="card__info">
+                    <div class="card__company">
+                        <span class="card__company-name">Manage</span>
+                        <span class="card__new">New!</span>
+                        <span class="card__featured">Featured</span>
+                    </div>
+                    <h2 class="card__position">Senior Frontend Developer</h2>
+                    <ul class="card__details">
+                        <li>1d ago</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Part Time</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Remote</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card__tags">
+                    <button class="tag">Fullstack</button>
+                    <button class="tag">Midweight</button>
+                    <button class="tag">Python</button>
+                    <button class="tag">React</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="left">
+                <div class="card__logo">
+                    <img src="./images/account.svg" alt="Account Logo">
+                </div>
+                <div class="card__info">
+                    <div class="card__company">
+                        <span class="card__company-name">Account</span>
+                        <span class="card__new">New!</span>
+                    </div>
+                    <h2 class="card__position">Junior Frontend Developer</h2>
+                    <ul class="card__details">
+                        <li>2d ago</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Part Time</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>USA only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card__tags">
+                    <button class="tag">Frontend</button>
+                    <button class="tag">Junior</button>
+                    <button class="tag">JavaScript</button>
+                    <button class="tag">React</button>
+                    <button class="tag">Sass</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="left">
+                <div class="card__logo">
+                    <img src="./images/myhome.svg" alt="MyHome Logo">
+                </div>
+                <div class="card__info">
+                    <div class="card__company">
+                        <span class="card__company-name">MyHome</span>
+                    </div>
+                    <h2 class="card__position">Junior Frontend Developer</h2>
+                    <ul class="card__details">
+                        <li>5d ago</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Contract</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>USA only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card__tags">
+                    <button class="tag">Frontend</button>
+                    <button class="tag">Junior</button>
+                    <button class="tag">JavaScript</button>
+                    <button class="tag">CSS</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="left">
+                <div class="card__logo">
+                    <img src="./images/loop-studios.svg" alt="Loop Studios Logo">
+                </div>
+                <div class="card__info">
+                    <div class="card__company">
+                        <span class="card__company-name">Loop Studios</span>
+                    </div>
+                    <h2 class="card__position">Software Engineer</h2>
+                    <ul class="card__details">
+                        <li>1w ago</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Full Time</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Worldwide</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card__tags">
+                    <button class="tag">Fullstack</button>
+                    <button class="tag">Midweight</button>
+                    <button class="tag">JavaScript</button>
+                    <button class="tag">Ruby</button>
+                    <button class="tag">Sass</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="left">
+                <div class="card__logo">
+                    <img src="./images/faceit.svg" alt="FaceIt Logo">
+                </div>
+                <div class="card__info">
+                    <div class="card__company">
+                        <span class="card__company-name">FaceIt</span>
+                    </div>
+                    <h2 class="card__position">Junior Backend Developer</h2>
+                    <ul class="card__details">
+                        <li>2w ago</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Full Time</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>UK only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card__tags">
+                    <button class="tag">Backend</button>
+                    <button class="tag">Junior</button>
+                    <button class="tag">Ruby</button>
+                    <button class="tag">RoR</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="left">
+                <div class="card__logo">
+                    <img src="./images/shortly.svg" alt="Shortly Logo">
+                </div>
+                <div class="card__info">
+                    <div class="card__company">
+                        <span class="card__company-name">Shortly</span>
+                    </div>
+                    <h2 class="card__position">Junior Developer</h2>
+                    <ul class="card__details">
+                        <li>2w ago</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Full Time</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Worldwide</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card__tags">
+                    <button class="tag">Frontend</button>
+                    <button class="tag">Junior</button>
+                    <button class="tag">JavaScript</button>
+                    <button class="tag">HTML</button>
+                    <button class="tag">Sass</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="left">
+                <div class="card__logo">
+                    <img src="./images/insure.svg" alt="Insure Logo">
+                </div>
+                <div class="card__info">
+                    <div class="card__company">
+                        <span class="card__company-name">Insure</span>
+                    </div>
+                    <h2 class="card__position"> Junior Frontend Developer</h2>
+                    <ul class="card__details">
+                        <li>1w ago</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Full Time</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li> USA only</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card__tags">
+                    <button class="tag">Frontend</button>
+                    <button class="tag">Junior</button>
+                    <button class="tag">JavaScript</button>
+                    <button class="tag">Vue</button>
+                    <button class="tag">Sass</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="left">
+                <div class="card__logo">
+                    <img src="./images/eyecam-co.svg" alt="Eyecam Co. Logo">
+                </div>
+                <div class="card__info">
+                    <div class="card__company">
+                        <span class="card__company-name">Eyecam Co.</span>
+                    </div>
+                    <h2 class="card__position">Full Stack Engineer</h2>
+                    <ul class="card__details">
+                        <li>3w ago</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Full Time</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Worldwide</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card__tags">
+                    <button class="tag">Fullstack</button>
+                    <button class="tag">Midweight</button>
+                    <button class="tag">JavaScript</button>
+                    <button class="tag">Python</button>
+                    <button class="tag">Django</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="left">
+                <div class="card__logo">
+                    <img src="./images/the-air-filter-company.svg" alt="The Air Filter Company Logo">
+                </div>
+                <div class="card__info">
+                    <div class="card__company">
+                        <span class="card__company-name">The Air Filter Company</span>
+                    </div>
+                    <h2 class="card__position">Front-end Dev</h2>
+                    <ul class="card__details">
+                        <li>1mo ago</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Part Time</li>
+                        <span><i class="fa fa-circle" style="font-size:10px"></i></span>
+                        <li>Worldwide</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="card__tags">
+                    <button class="tag">Frontend</button>
+                    <button class="tag">Junior</button>
+                    <button class="tag">JavaScript</button>
+                    <button class="tag">React</button>
+                    <button class="tag">Sass</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+
+</html>
